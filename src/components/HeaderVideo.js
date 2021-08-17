@@ -2,11 +2,11 @@ import React from 'react'
 
 const HeaderVideo = ({page}) => {
     return (
-        <div className={page=="Home"? "header-video" : `${page}-panel`}>
-            {page=="Home" ? (<div className="video">
+        <div className={page==="Home"? "header-video" : `${page}-panel`}>
+            {page==="Home" ? (<div className="video">
                 <video src="/videos/video-1.mp4" autoPlay loop muted></video>
             </div>) : ""}
-            {page=="Home"? (<div className="title">
+            {page==="Home"? (<div className="title">
                 <h1>Adventure awaits</h1>
                 <h3>What are you waiting for?</h3>
                 <div className="control">

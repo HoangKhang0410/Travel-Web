@@ -23,7 +23,7 @@ const NavBar = ({onClick}) => {
                 <Link to="/sign-up" className="sign-up">Sign up</Link>
             </div>
             <div className="menu">
-                <i class={click ? "fas fa-times" : "fas fa-bars"} onClick={handleClick}></i>
+                <i className={click ? "fas fa-times" : "fas fa-bars"} onClick={handleClick}></i>
             </div>
         </nav>
     )

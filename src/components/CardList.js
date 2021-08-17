@@ -33,8 +33,8 @@ const CardList = () => {
         <div className="card-list">
             <h1>Check out these EPIC Destinations</h1>
             <div className="cards">
-            {Cards.map(card => (
-                <Card card={card}/>
+            {Cards.map((card, index) => (
+                <Card card={card} key={index}/>
             ))}
             </div>
         </div>
